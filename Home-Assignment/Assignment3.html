@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+    <style>
+        .Border {
+            width: 800px;
+            height: 1700px;
+            border: 3px solid rgb(1, 0, 0);
+            margin: auto;
+            background-color: lightcyan;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: navy;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 45px;
+            text-decoration: underline;
+
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            margin-left: 10px;
+            border-radius: 5px;
+            margin-top: 4px;
+        }
+
+        p {
+            margin-left: 8px;
+            font-size: 17px;
+
+        }
+
+        h2 {
+            text-align: center;
+            color: navy;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 40px;
+            text-decoration: underline;
+
+
+        }
+
+        ul {
+            font-size: 18px;
+            margin-left: 30px;
+            margin-top: 30px;
+
+        }
+
+        ol {
+            font-size: 18px;
+            margin-left: 30px;
+            margin-top: 30px;
+
+
+        }
+
+        table {
+            margin-left: 230px;
+            margin-top: 30px;
+            border: 1px solid navy;
+
+        }
+
+        form {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: auto;
+        }
+
+        .form {
+            width: 300px;
+            height: 450px;
+            margin: auto;
+            border: 3px solid black;
+            background-color: lavender;
+        }
+
+        input {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        button {
+            padding: 10px;
+            color: white;
+            background-color: navy;
+
+
+
+            border: 1px solid black;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Border">
+        <h1>
+            Lexus Developers
+        </h1>
+        <div style="display: flex;
+        margin-top: 60px;">
+            <img src="frontend.jpg">
+            <div style="display: flex; flex-direction: column;">
+                <p>
+                    At Lexus Developers, we bring your ideas to life with high-quality software solutions
+                    tailored to meet your business needs. With a global presence, our team of skilled
+                    developers and consultants offers comprehensive IT solutions, transforming
+                    concepts into reliable digital products. Partner with us to experience
+                    innovation and quality firsthand.
+                </p>
+                <p>
+                    We build custom software solutions designed around your business goals, ensuring
+                    efficiency, reliability, and long-term scalability. Whether you need automation,
+                    management tools, or a full digital product, our team delivers purposeful, high-quality
+                    software built to solve real problems.
+                </p>
+            </div>
+        </div>
+        <h2>
+            SOCIAL MEDIA MANAGER WANTED!
+        </h2>
+        <ul>
+            <li>
+                Manage social media pages effectively, including
+                Facebook, Instagram , Twitter and more.
+            </li>
+            <li>
+                Handle incoming orders and inquiries from different social media platforms.
+            </li>
+            <li>
+                Maintain active engagement with followers and respond promptly to messages and comments.
+            </li>
+            <li>
+
+                Create engaging content including posts,
+                stories, and captions, to attract and retain followers.
+            </li>
+            <li>
+
+                Monitor social media trends and analytics
+                to optimize content strategy and increase engagement.
+            </li>
+            <li>
+
+                Ensure consistent branding and
+                messaging across all social media channels.
+
+            </li>
+        </ul>
+        <h2>
+            STEPS TO JOIN THE LEXUS DEVELOPERS
+        </h2>
+        <ol>
+            <li>
+                Fill out the online registration form with your personal details.
+            </li>
+            <LI>
+                Attend the interview to demonstrate your skills
+                and passion for web development.
+            </LI>
+            <li>
+                Complete the training program provided by Lexus Developers.
+            </li>
+            <li>
+                Work on real-world projects under the
+                guidance of experienced mentors.
+            </li>
+            <li>
+                Successfully finish the
+                program and receive your completion certificate.
+
+            </li>
+        </ol>
+        <h2>
+            OUR COURSES
+        </h2>
+        <table border="3">
+            <tr>
+                <th>Course</th>
+                <th>Duration</th>
+                <th>Level</th>
+                <th>Instructor</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>2 Weeks</td>
+                <td>Beginner</td>
+                <td>Ali Khan</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>3 Weeks</td>
+                <td>Beginner</td>
+                <td>Sara Ahmed</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>4 Weeks</td>
+                <td>Intermediate</td>
+                <td>Usman Ali</td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>6 Weeks</td>
+                <td>Advanced</td>
+                <td>Ayesha Noor</td>
+            </tr>
+        </table>
+        <h2>
+            STUDENT APPLICATION FORM
+        </h2>
+        <div class="form">
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Full Name">
+                <label for="Fathername">Father's Name</label>
+                <input type="text" id="fathername" name="fathername" placeholder="Enter Your Father's Name">
+                <label for="Email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                <label for="phonenumber">Phone Number</label>
+                <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter Your Phone Number">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Your Password">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
