@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project by Html</title>
+    <style>
+        body {
+            font-family: arial;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: #4a9e9e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            background: #e8f5f5;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            color: #1a4d4d;
+            margin: 0 0 20px 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+            margin: 0 0 30px 0;
+        }
+
+        button {
+            background: #4a9e9e;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 32px;
+            color: #1a4d4d;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            width: 280px;
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border: 2px solid #4a9e9e;
+        }
+
+        .card h3 {
+            color: #1a4d4d;
+            margin: 10px 0;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .price {
+            font-size: 40px;
+            color: #4a9e9e;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .bg-gray {
+            background: #f5f5f5;
+        }
+
+        .footer {
+            background: #1a4d4d;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>HRC HR Connect</h1>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#feature">Feature</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+    </div>
+
+    <!-- hero section -->
+    <div class="hero" id="home">
+        <h2>Empower Your Workforce, Streamline Your HR</h2>
+        <p>All-in-one HR platform for people management and payroll</p>
+        <button>Get Started Free</button>
+
+    </div>
+
+    <!-- Features section -->
+    <div class="section" id="feature">
+        <h2>Our Features</h2>
+        <centre>
+            <table>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <h3>💰 Payroll</h3>
+                            <p>Automated payroll management system</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h3>📢 Talent</h3>
+                            <p>Talent acquisition and hiring tools</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h3>📊 Reviews</h3>
+                            <p>Performance tracking and reviews</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </centre>
+    </div>
+
+    <!-- Pricing Section -->
+    <div class="section bg-gray" id="pricing">
+        <h2>Pricing Plans</h2>
+        <centre>
+            <table>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <h3>Starter</h3>
+                            <div class="price">$29</div>
+                            <p>Up to 25 employees<br>
+                                Basic payroll<br>
+                                Email support</p>
+                            <button>Choose Plan</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h3>Professional</h3>
+                            <div class="price">$79</div>
+                            <p>Up to 100 employees<br>
+                                Advanced features<br>
+                                24/7 support</p>
+                            <button>Choose Plan</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h3>Enterprise</h3>
+                            <div class="price">$199</div>
+                            <p>Unlimited employees<br>
+                                Full HR suite<br>
+                                Dedicated manager</p>
+                            <button>Choose Plan</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </centre>
+    </div>
+
+    <!-- About Section -->
+    <div class="section" id="about">
+        <h2>About HR Connect</h2>
+        <p>Leading HR management platform helping businesses streamline workforce operations</p>
+        <br>
+        <table align="center">
+            <tr>
+                <td width="200" align="center">
+                    <h2 style="color: #4a9e9e; margin: 0;">5000+</h2>
+                    <p>Companies</p>
+                </td>
+                <td width="200" align="center">
+                    <h2 style="color: #4a9e9e; margin: 0;">250K+</h2>
+                    <p>Employees</p>
+                </td>
+                <td width="200" align="center">
+                    <h2 style="color: #4a9e9e; margin: 0;">98%</h2>
+                    <p>Satisfaction</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer  -->
+
+    <div class="footer">
+        <h3 style="color: #7dd5d5;">Contact Us</h3>
+        <p>Empowering businesses with innovative HR solutions</p>
+
+        <br><br>
+        <p>Email: info@hrconnect.com | Phone: +1 (555) 123-4567</p>
+        <p>&copy; 2026 HR Connect. All rights reserved.</p>
+
+    </div>
+</body>
+
+</html>
