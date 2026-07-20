@@ -1,0 +1,30 @@
+.parent{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left:600px;
+    border: 3px solid plum;
+
+}
+.child{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid brown;
+}
+#child2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.child1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid brown;
+}
+#div2{
+    position: fixed;
+    top: 0px;
+
+}

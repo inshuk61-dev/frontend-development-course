@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(114, 187, 226);
+    padding: 15px;
+
+}
+
+#nav-bar {
+    direction: flex;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#nav-bar a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+
+#nav-bar a:hover {
+    color: blue;
+}
+
+#button {
+    width: 80px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: lavender;
+    cursor: pointer;
+
+}
+
+#button:hover {
+    background-color: rgb(184, 184, 225);
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    background-color: rgb(174, 247, 247);
+}
+
+#left-side {
+    width: 400px;
+    margin-left: 50px;
+}
+
+#right-side {
+    margin-right: 70px;
+}
+
+#left-side h1 {
+    font-size: 50px;
+    line-height: 70px;
+    color: navy;
+}
+
+#left-side h3 {
+    font-size: 25px;
+    color: black;
+}
+
+#left-side p {
+    line-height: 18px;
+    width: 200px;
+}
+
+#right-side img {
+    border-radius: 7px;
+}
+
+.section2 {
+    background-color: rgb(174, 247, 247);
+}
+
+.section2 h1 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 10px 5px;
+    width: 250px;
+    text-align: center;
+    margin-left: 500px;
+    border-radius: 8px;
+}
+#left h2{
+    margin-top: 70px;
+    margin-left: 120px;
+    font-size: 40px;
+    width: 380px;
+    color:darkblue;
+}
+#left p{
+    width: 400px;
+    margin-left: 120px;
+    line-height: 17px;
+    margin-top: 8px;
+}
+#left ul{
+    margin-left: 120px;
+    margin-top: 10px;
+    list-style: none;
+    line-height: 30px;
+}
