@@ -83,9 +83,15 @@
 
 .section2 {
     background-color: rgb(174, 247, 247);
+    display: flex;
+
 }
 
-.section2 h1 {
+.h1div {
+    background-color: rgb(174, 247, 247);
+}
+
+#aboutme {
     color: white;
     background-color: blue;
     text-align: center;
@@ -95,22 +101,456 @@
     margin-left: 500px;
     border-radius: 8px;
 }
-#left h2{
+
+#left h2 {
     margin-top: 70px;
     margin-left: 120px;
     font-size: 40px;
     width: 380px;
-    color:darkblue;
+    color: darkblue;
 }
-#left p{
+
+#left p {
     width: 400px;
     margin-left: 120px;
     line-height: 17px;
     margin-top: 8px;
 }
-#left ul{
+
+#left ul {
     margin-left: 120px;
     margin-top: 10px;
     list-style: none;
     line-height: 30px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+}
+
+#img1 img {
+    width: 80px;
+    height: 80px;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+#img1 span {
+
+    font-weight: bold;
+    margin-left: 185px;
+}
+
+#img1 p {
+    margin-left: 136px;
+}
+
+#img2 img {
+    width: 80px;
+    height: 80px;
+    margin-left: 150px;
+    margin-top: 70px;
+
+}
+
+#img2 span {
+
+    font-weight: bold;
+    margin-left: 185px;
+}
+
+#img2 p {
+    margin-left: 136px;
+}
+
+#right-section {
+    margin-bottom: 130px;
+}
+
+#img3 img {
+    width: 80px;
+    height: 80px;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+#img3 span {
+
+    font-weight: bold;
+    margin-left: 185px;
+}
+
+#img3 p {
+    margin-left: 136px;
+}
+
+#img4 img {
+    width: 70px;
+    height: 70px;
+    margin-left: 150px;
+    margin-top: 80px;
+
+}
+
+#img4 span {
+
+    font-weight: bold;
+    margin-left: 185px;
+}
+
+#img4 p {
+    margin-left: 136px;
+}
+
+#services {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 8px 3px;
+    width: 230px;
+    text-align: center;
+    margin-left: 500px;
+    border-radius: 6px;
+
+
+}
+
+#section3 {
+    background-color: rgb(174, 247, 247);
+    padding-bottom: 100px;
+
+}
+
+#upcard {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+}
+
+#downcard {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+
+
+}
+
+#card1 {
+    background-color: navy;
+    margin-left: 120px;
+    border-radius: 8px;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+#card1 img {
+    width: 46px;
+    height: 46px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+#card1 h3 {
+    margin-left: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+#card1 p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#card2 {
+    background-color: navy;
+    margin-left: 50px;
+    border-radius: 8px;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+#card2 img {
+    width: 46px;
+    height: 46px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+#card2 h3 {
+    margin-left: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+#card2 p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#card3 {
+    background-color: navy;
+    margin-left: 50px;
+    border-radius: 8px;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+#card3 img {
+    width: 46px;
+    height: 46px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+#card3 h3 {
+    margin-left: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+#card3 p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#card4 {
+    background-color: navy;
+    margin-left: 50px;
+    border-radius: 8px;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-right: 120px;
+
+}
+
+#card4 img {
+    width: 46px;
+    height: 46px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+#card4 h3 {
+    margin-left: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+#card4 p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#card5 {
+    background-color: navy;
+    margin-left: 120px;
+    border-radius: 8px;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+#card5 img {
+    width: 46px;
+    height: 46px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+#card5 h3 {
+    margin-left: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+#card5 p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#card6 {
+    background-color: navy;
+    margin-left: 50px;
+    border-radius: 8px;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+
+
+}
+
+#card6 img {
+    width: 46px;
+    height: 46px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+#card6 h3 {
+    margin-left: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+#card6 p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#card7 {
+    background-color: navy;
+    margin-left: 50px;
+    border-radius: 8px;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+
+}
+
+#card7 img {
+    width: 46px;
+    height: 46px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+#card7 h3 {
+    margin-left: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+#card7 p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#card8 {
+    background-color: navy;
+    margin-left: 50px;
+    border-radius: 8px;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-right: 120px;
+
+}
+
+#card8 img {
+    width: 46px;
+    height: 46px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+#card8 h3 {
+    margin-left: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+#card8 p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#project {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 8px 3px;
+    width: 200px;
+    text-align: center;
+    margin-left: 500px;
+    border-radius: 6px;
+
+
+}
+
+#section4 {
+    background-color: rgb(174, 247, 247);
+    padding-bottom: 100px;
+}
+
+#div1 {
+    display: flex;
+
+}
+
+#div1 img {
+    width: 250px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+#div2 {
+    display: flex;
+
+}
+
+#div2 img {
+    width: 250px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+footer {
+    background:rgb(114, 187, 226);
+    color:black;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer a {
+    color: rebeccapurple;
+    text-decoration: none;
+    margin: 0 10px;
 }
