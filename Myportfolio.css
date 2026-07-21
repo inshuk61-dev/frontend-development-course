@@ -514,33 +514,27 @@
 #section4 {
     background-color: rgb(174, 247, 247);
     padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 50px;
 }
 
 #div1 {
-    display: flex;
-
+ margin-top: 30px;
+ display: grid;
+ grid-template-columns: 300px 300px 300px;
+ gap: 50px;
+ justify-content: space-around;
+ padding: 40px 100px;
 }
+
 
 #div1 img {
-    width: 250px;
+    width: 300px;
     height: 300px;
-    margin-top: 60px;
-    margin-left: 120px;
-    border-radius: 10px;
+    border: 2px solid black;
 }
 
-#div2 {
-    display: flex;
-
-}
-
-#div2 img {
-    width: 250px;
-    height: 300px;
-    margin-top: 60px;
-    margin-left: 120px;
-    border-radius: 10px;
-}
 
 footer {
     background:rgb(114, 187, 226);
