@@ -522,33 +522,89 @@
 
 
 .div1 img{
+    height: 300px;
+    width: 300px;
     border: 2px  solid black;
 }
+.div1{
+    position: relative;
+}
+.div1 span{
+    position: absolute;
+    bottom:15px;
+    right: 40px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
 
-.divtwo img{
+.div2 img{
     height: 300px;
     width: 300px;
     border: 2px solid black;
 }
-.div1 img{
-    height: 300px;
-    width: 300px;
-    border: 2px solid black;
+.div2{
+    position: relative;
 }
+.div2 span{
+    position: absolute;
+    bottom:15px;
+    right: 40px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
+
+
 .div3 img{
     height: 300px;
     width: 300px;
     border: 2px solid black;
+}
+
+.div3{
+    position: relative;
+}
+.div3 span{
+    position: absolute;
+    bottom:15px;
+    right: 40px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
 }
 .div4 img{
     height: 300px;
     width: 300px;
     border: 2px solid black;
 }
+.div4{
+    position: relative;
+}
+.div4 span{
+    position: absolute;
+    bottom:15px;
+    right: 40px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
 .div5 img{
     height: 300px;
     width: 300px;
     border: 2px solid black;
+}
+
+.div5{
+    position: relative;
+}
+.div5 span{
+    position: absolute;
+    bottom:15px;
+    right: 40px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
 }
 .div6 img{
     height: 300px;
@@ -556,9 +612,17 @@
     border: 2px solid black;
 }
 
-
- 
-
+.div6{
+    position: relative;
+}
+.div6 span{
+    position: absolute;
+    bottom:15px;
+    right: 40px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
 
 footer {
     background:rgb(114, 187, 226);
