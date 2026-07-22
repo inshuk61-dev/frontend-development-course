@@ -5,25 +5,109 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap:20px;
     row-gap: 30px;
-    padding: 80px 180px;
+    padding-left: 10px;
+    padding-top: 20px;
 
 
 
 }
-
-img {
-    height: 200px;
+img{
     width: 200px;
+    height: 200px;
     border: 2px solid black;
 }
 
-@media (min-width: 0px) and (max-width: 480px) {
-    .container {
-        display: grid;
-        grid-template-columns: 200px;
-        grid-template-rows: 200px;
-    }
+.image1{
+    position: relative;
 }
+.image1 span{
+    position: absolute;
+    bottom: 10px;
+    right: 110px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
+.image2{
+    position: relative;
+}
+.image2 span{
+    position: absolute;
+    bottom: 10px;
+    right: 110px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
+.image3{
+    position: relative;
+}
+.image3 span{
+    position: absolute;
+    bottom: 10px;
+    right: 110px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
+.image4{
+    position: relative;
+}
+.image4 span{
+    position: absolute;
+    bottom: 10px;
+    right: 110px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
+.image5{
+    position: relative;
+}
+.image5 span{
+    position: absolute;
+    bottom: 10px;
+    right: 110px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
+.image6{
+    position: relative;
+}
+.image6 span{
+    position: absolute;
+    bottom: 10px;
+    right: 110px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
+.image7{
+    position: relative;
+}
+.image7 span{
+    position: absolute;
+    bottom: 10px;
+    right: 110px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;
+}
+.image8{
+    position: relative;
+}
+.image8 span{
+    position: absolute;
+    bottom: 10px;
+    right: 110px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px 2px;}
+
+
+
+

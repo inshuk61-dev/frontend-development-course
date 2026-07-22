@@ -511,29 +511,53 @@
 
 }
 
-#section4 {
+.section4 {
     background-color: rgb(174, 247, 247);
-    padding-bottom: 100px;
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
     gap: 50px;
-}
-
-#div1 {
- margin-top: 30px;
- display: grid;
- grid-template-columns: 300px 300px 300px;
- gap: 50px;
- justify-content: space-around;
- padding: 40px 100px;
+    padding: 40px 100px;
 }
 
 
-#div1 img {
-    width: 300px;
+.div1 img{
+    border: 2px  solid black;
+}
+
+.divtwo img{
     height: 300px;
+    width: 300px;
     border: 2px solid black;
 }
+.div1 img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+.div3 img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+.div4 img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+.div5 img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+.div6 img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+
+ 
 
 
 footer {
