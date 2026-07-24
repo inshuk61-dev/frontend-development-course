@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: lightgreen;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    cursor: pointer;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    align-items: center;
+}
+
+header button {
+    padding: 8px 25px;
+    margin-right: 10px;
+    background-color: lightgreen;
+    border: 1.5px solid black;
+    border-radius: 5px;
+
+}
+
+header button:hover {
+    background-color: rgba(0, 128, 0, 0.322);
+
+}
+
+main h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.imagesgroup img {
+    width: 300px;
+    height:300px;
+    border: 2px solid black;
+    display: grid;
+   
+
+}
+
+.imagesgroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+@media (min-width:0px) and (max-width:577px) {
+    header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    header h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header button {
+        cursor: pointer;
+        margin-top: 3px;
+
+    }
+
+    header button:hover {
+        background-color: green;
+
+    }
+     main h1{
+        justify-content: center;
+        display: flex;
+     }
+
+     .imagesgroup {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+    justify-content: center;
+    margin-left: 5px;
+    align-items: center;
+    gap:10px;
+}
+
+}
+
+@media (min-width:578px) and (max-width:678px) {
+    header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    header h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header button {
+        cursor: pointer;
+        margin-top: 3px;
+
+    }
+
+    header button:hover {
+        background-color: green;
+
+    }
+    .imagesgroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr  1fr;
+    justify-content: center;
+    margin-left: 5px;
+    align-items: center;
+    gap:10px;
+}
+
+}
+@media (min-width:679px) and (max-width:992px) {
+    .imagesgroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    grid-template-rows: 1fr  1fr 1fr;
+    justify-content: center;
+    margin-left: 5px;
+    align-items: center;
+    gap:10px;
+}
+}
