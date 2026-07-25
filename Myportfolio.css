@@ -527,6 +527,10 @@
     width: 300px;
     border: 2px  solid black;
 }
+.div1 img:hover{
+    transform: scale(1.1) ;
+    box-shadow: 0px 5px 8px rgba(4, 4, 240, 0.893);
+}
 .div1{
     position: relative;
 }
@@ -543,6 +547,11 @@
     height: 300px;
     width: 300px;
     border: 2px solid black;
+}
+
+.div2 img:hover{
+    transform: scale(1.1) ;
+    box-shadow: 0px 5px 8px rgba(4, 4, 240, 0.893);
 }
 .div2{
     position: relative;
@@ -562,6 +571,10 @@
     width: 300px;
     border: 2px solid black;
 }
+.div3 img:hover{
+    transform: scale(1.1) ;
+    box-shadow: 0px 5px 8px rgba(4, 4, 240, 0.893);
+}
 
 .div3{
     position: relative;
@@ -579,6 +592,11 @@
     width: 300px;
     border: 2px solid black;
 }
+
+.div4 img:hover{
+    transform: scale(1.1) ;
+    box-shadow: 0px 5px 8px rgba(4, 4, 240, 0.893);
+}
 .div4{
     position: relative;
 }
@@ -594,6 +612,10 @@
     height: 300px;
     width: 300px;
     border: 2px solid black;
+}
+.div5 img:hover{
+    transform: scale(1.1) ;
+    box-shadow: 0px 5px 8px rgba(4, 4, 240, 0.893);
 }
 
 .div5{
@@ -611,7 +633,13 @@
     height: 300px;
     width: 300px;
     border: 2px solid black;
+    
 }
+.div6 img:hover{
+    transform: scale(1.1) ;
+    box-shadow: 0px 5px 8px rgba(4, 4, 240, 0.893);
+}
+
 
 .div6{
     position: relative;

@@ -14,6 +14,7 @@ body{
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
+
 #div1{
     display: flex;
     justify-content: space-between;
@@ -81,5 +82,36 @@ button {
 
  button:hover{
     background-color:lightgreen;
- }       
+ }    
+ 
+ @media (min-width:0px) and (max-width:577px) {
 
+    .card{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+#div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+ }
+@media (min-width:578px) and (max-width:678px) {
+
+    .card{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+#div1{
+    display: flex;
+    justify-content: space-between;
+}
+}
