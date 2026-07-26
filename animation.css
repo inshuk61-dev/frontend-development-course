@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: plum;
+    width: 80vh;
+    height: 30vw;
+}
+
+.box {
+    width: 80px;
+    height: 70px;
+    background-color: brown;
+    /* animation: identifier; */
+    /* animation-duration: 3s; */
+    /* animation-iteration-count:1; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 1s; */
+    /* animation-direction:normal; */
+    /* animation-fill-mode: forwards; */
+    animation: identifier 2s ease-in-out 3s 1 ,
+     identifier2 3s ease 2s 1;
+
+
+}
+
+@keyframes identifier {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+        transform: translateX(1000px);
+    }
+}
+@keyframes identifier2 {
+    0%{
+        transform: rotate(200deg);
+    }
+    20%{
+        transform: rotate(220deg);
+    }
+    50%{
+        transform: rotate(250deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(310deg);
+    }
+}

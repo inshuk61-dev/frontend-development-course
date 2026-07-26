@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagesgroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+img:hover
+{
+   transform: scale(0.9);
+    box-shadow: 0 8px 10px rgba(189, 38, 186, 0.642);
+}
