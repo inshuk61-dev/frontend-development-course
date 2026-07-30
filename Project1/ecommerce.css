@@ -132,3 +132,298 @@ nav a svg:hover {
     transform: scale(1.1);
 }
 
+.new-product{
+    text-align: center;
+    margin-top: 4rem;
+    text-decoration: underline red;
+}
+
+.card-collection{
+    display: flex;
+    gap: 20px;
+    padding: 35px;
+    margin-left: 80px;
+
+}
+
+.card1{
+    background-image: url(card-image1.jpg);
+    background-position:5px 60px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:240px;
+    height: 450px;
+    border:2px solid black;
+    position: relative;
+}
+.card1 h2{
+    position: absolute;
+    top:0px;
+    left:10px;
+    background-color:rgba(13, 150, 13, 0.689);
+    color: white;
+    font-weight: lighter;
+    padding: 2px 14px;
+}
+.card1 p {
+    position: absolute;
+    bottom:100px;
+    width: 100px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--light-clr);
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+.card1 span{
+    position: absolute;
+    bottom: 75px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+    font-weight:700;
+}
+.card1:hover{
+    box-shadow:0 8px 10px rgba(0, 0, 0, 0.5);
+}
+.card2{
+    background-image: url(card-image2.jpg);
+    background-position:5px 60px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:240px;
+    height: 450px;
+    border:2px solid black;
+    position: relative;
+}
+.card2 h2{
+    position: absolute;
+    top:0px;
+    left:10px;
+    background-color:rgba(226, 20, 20, 0.742);
+    color: white;
+    font-weight: lighter;
+    padding: 2px 16px;
+}
+.card2 p {
+    position: absolute;
+    bottom:100px;
+    width: 100px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--light-clr);
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+.card2 del{
+    position: absolute;
+    bottom: 75px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: gray;
+}
+.card2 span{
+    position: absolute;
+    bottom: 75px;
+    margin-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+    font-weight:700;
+}
+.card2:hover{
+    box-shadow:0 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card3{
+    background-image: url(card-image3.jpg);
+    background-position:5px 60px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:240px;
+    height: 450px;
+    border:2px solid black;
+    position: relative;
+}
+.card3 h2{
+    position: absolute;
+    top:0px;
+    left:10px;
+    background-color:rgba(13, 150, 13, 0.689);
+    color: white;
+    font-weight: lighter;
+    padding: 2px 14px;
+}
+.card3 p {
+    position: absolute;
+    bottom:100px;
+    width: 100px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--light-clr);
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+.card3 span{
+    position: absolute;
+    bottom: 75px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+    font-weight:700;
+}
+.card3:hover{
+    box-shadow:0 8px 10px rgba(0, 0, 0, 0.5);
+}
+.card4{
+    background-image: url(card-image4.jpg);
+    background-position:5px 60px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:240px;
+    height: 450px;
+    border:2px solid black;
+    position: relative;
+}
+.card4 h2{
+    position: absolute;
+    top:0px;
+    left:10px;
+    background-color:rgba(13, 150, 13, 0.689);
+    color: white;
+    font-weight: lighter;
+    padding: 2px 14px;
+}
+.card4 p {
+    position: absolute;
+    bottom:100px;
+    width: 100px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--light-clr);
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+.card4 span{
+    position: absolute;
+    bottom: 75px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+    font-weight:700;
+}
+.card4:hover{
+    box-shadow:0 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.add-to-cart{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    bottom: 0px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.6rem 2.2rem;
+    color:white;
+    border: none;
+    background-color:rgba(232, 10, 10, 0.936)
+}
+
+.add-to-cart:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.card1:hover .add-to-cart{
+    visibility: visible;
+    opacity: 1;
+}
+.card2:hover .add-to-cart{
+    visibility: visible;
+    opacity: 1;
+}
+.card3:hover .add-to-cart{
+    visibility: visible;
+    opacity: 1;
+}
+.card4:hover .add-to-cart{
+    visibility: visible;
+    opacity: 1;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    padding: 2rem 6rem;
+    background-color: rgba(184, 181, 181, 0.566);
+}
+.box-icons{
+    text-align: center;
+}
+.box-icons svg{
+    fill: red;
+}
+.box-icons h2{
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.box-icons h2:hover{
+    color: #e6303d;
+}
+.social-icons{
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 2rem;
+      background-color:  rgba(184, 181, 181, 0.566);
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.heading{
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.icons svg{
+    width: 20px;
+    height: 30px;
+}
+
+.email-btn{
+    position: relative;
+}
+#email{
+    padding:0.5rem;
+    width: 300px;
+}
+.btn{
+    padding: 0.63rem;
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: #e6303d;
+    cursor: pointer;
+    border: none;
+
+}
+
+.icons svg:hover{
+    fill: blue;
+}
+
