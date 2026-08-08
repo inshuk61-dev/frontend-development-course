@@ -1,6 +1,5 @@
 // Even or Odd
-let a = 3
-    ;
+let a = 3;
 if (a % 2 === 0) {
     console.log("Even Number")
 }
@@ -39,7 +38,7 @@ switch (fruit) {
 
 // Grade
 
- let marks="49";
+ let marks=49;
 if (marks>=80 && marks<=100){
     console.log("A")
 }
@@ -55,7 +54,7 @@ else {
 
 // ATM Withdrwal
 let withdraw=20000;
-if (withdraw<20000){
+if (withdraw< 20000){
     console.log("Transition Successful")
 }
 else if (withdraw===20000){
