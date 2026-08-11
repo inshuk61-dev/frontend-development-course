@@ -45,9 +45,3 @@ function sum4(num1,num2,num3=0) {
 
 }
 sum4(3,6,8)
-
-
-
-
-
-
