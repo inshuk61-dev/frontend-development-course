@@ -96,3 +96,51 @@ console.log(school.students[1].marks);
 
 school.students[2].marks=90;
 console.log(school)
+
+
+// Question 6
+ 
+const object ={
+    name:"Inshal",
+    age:20,
+    marks:85,
+    greet : function() {
+        console.log("Hello my name is" + this.name);
+    },
+
+    result : function(){
+        if (this.marks>=50){
+            console.log("Pass")
+        } 
+        else{
+            console.log("Fail")
+        }
+    }
+};
+
+object.greet();
+object.result();
+
+// Question 7
+
+const objects = {
+    name:"Inshal",
+    age:20,
+    marks:85,
+    showInfo : function(){
+        console.log("My name is " + this.name , " & my marks is " +  this.marks);
+    },
+
+     result : function(){
+        if (this.marks>=50){
+            console.log("Pass")
+        } 
+        else{
+            console.log("Fail")
+        }
+    }
+}
+ 
+objects.showInfo();
+object.result();
+
