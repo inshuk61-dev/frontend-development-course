@@ -1,4 +1,4 @@
-// 4 types of DOM
+// 4 types of DOM   
 // Selection
 // Manipulation
 // Event handling 
@@ -19,5 +19,5 @@ else {
     h[1].style.color="purple";
     h[1].style.border="none"
 }
-
-})
+ 
+ })
